@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.7s ease-out;
+}
+
+#rela {
+  min-height: 100vh;
+  position: relative;
+  background-color: lightgray;
+}
+
+.sele {
+  background-color: hotpink !important;
+}
+
+#rela div {
+  height: 100px;
+  width: 100px;
+  display: inline;
+  position: absolute;
+  background-color: blueviolet;
+  border: 15px double #000;
+  z-index: 2;
+  cursor: grab;
+}
+
+#rela div:nth-child(2) {
+  background-color: aqua;
+  left: 100px;
+}
+#rela div:nth-child(3) {
+  background-color: chartreuse;
+  left: 200px;
+}
+#rela div:nth-child(4) {
+  background-color: darkred;
+  left: 300px;
+}
